@@ -4,7 +4,7 @@
 const WS_URL =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? `ws://${location.hostname}:3000`
-    : "wss://YOUR-APP-NAME.onrender.com"; // <-- update this
+    : "wss://voicechat-fi6v.onrender.com";
 
 const ICE_SERVERS = [{ urls: "stun:stun.l.google.com:19302" }];
 const WAKE_PING_INTERVAL_MS = 25000; // keep Render free-tier alive
