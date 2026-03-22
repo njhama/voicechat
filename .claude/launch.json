@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "voicechat-client",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "client", "--listen", "5500"],
+      "port": 5500
+    }
+  ]
+}

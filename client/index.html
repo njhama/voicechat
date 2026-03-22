@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoiceChat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>VoiceChat</h1>
+    <p class="subtitle">2-person peer-to-peer voice</p>
+
+    <div id="status">Waiting to join…</div>
+
+    <div class="avatars">
+      <div class="avatar" id="avatar0">🎙️</div>
+      <div class="avatar" id="avatar1">🎙️</div>
+    </div>
+
+    <div class="controls">
+      <button id="joinBtn">Join Room</button>
+      <button id="muteBtn">🔇 Mute</button>
+      <button id="leaveBtn">Leave</button>
+    </div>
+
+    <p class="wake-hint" id="wakeHint"></p>
+  </div>
+
+  <audio id="remoteAudio" autoplay playsinline></audio>
+  <script src="script.js"></script>
+</body>
+</html>
